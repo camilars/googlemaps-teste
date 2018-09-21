@@ -15,7 +15,7 @@
   
   <body>
 
-    <div class="container">
+    <div class="container" id="divLoc">
       
       <h2>Escolha a filial mais próxima de você</h2>
       <p>A Camila está onde você mais precisa. Conte com nossos serviços nas nove filiais do país.</p>
@@ -99,11 +99,11 @@ var myStyle = [
 
       function initMap() {
 
-          var center = new google.maps.LatLng(-15.7797200,-47.9297200);
+          var center = new google.maps.LatLng(-8.020465,-34.923203);
 
           map = new google.maps.Map(document.getElementById('map'), {
             center: center,
-            zoom: 4.5,
+            zoom: 5,
             mapTypeId: 'mystyle'
           });
           map.mapTypes.set('mystyle', new google.maps.StyledMapType(myStyle, { name: 'My Style' }));
