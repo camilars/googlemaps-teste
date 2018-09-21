@@ -1,0 +1,45 @@
+ #map {
+        height: 100%;
+      }
+
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      h2 {
+        color: #348dcd;
+        font-style: Neo Sans Bold;
+        text-shadow: 0 0 0.2em #6caedf;
+      }
+
+      p {
+        color: #348dcd;
+        font-style: Neo Sans Italic;
+        text-shadow: 0 0 0.2em #6caedf;
+      }
+      
+      #sel1 {
+        color: #348dcd;
+        font-style: Neo Sans Bold;
+        text-shadow: 0 0 0.2em #6caedf;
+        border-color: #348dcd;  
+      }
+
+      #legend {
+        font-family: Arial, sans-serif;
+        font-size: 30px;
+        background: #fff;
+        padding: 10px;
+        margin: 10px;
+        margin-right: 50px;
+        border: 3px solid #000;
+      }
+      #legend h3 {
+        margin-top: 0;
+      }
+      #legend img {
+        vertical-align: middle;
+        margin: 7px;
+      }
