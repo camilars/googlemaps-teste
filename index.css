@@ -6,6 +6,7 @@
         height: 100%;
         margin: 0;
         padding: 0;
+        background-color: #87CEFA;
       }
 
       h2 {
@@ -21,7 +22,7 @@
       }
 
       #divLoc{
-        
+        background-color: #87CEFA;
       }
       
       #sel1 {
